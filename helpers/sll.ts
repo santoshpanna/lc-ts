@@ -24,8 +24,6 @@ const traverseNode = (head: ListNode | null) => {
   values.push(curr.val);
 
   console.log("SLL values : ", values);
-
-  return;
 }
 
 const create = (arr: number[]) => {
